@@ -5,10 +5,10 @@ int main()
 {
   int num1, num2, num3;
   int res;
-  num1 = 10;
-  num2 = 10;
-  num3 = 10;
-  res = (num1 + num2 + num3) / 3;
-  
-  std::cout << "Avg: " << res;
+  std::cout << "Enter Numbers: "
+  std::cin >> num1 >> num2 >> num3;
+  res = num1 + num2 + num3;
+  int avg = res / 3;
+  std::cout << "Res: " << res;
+  std::cout << "Avg: " << avg;
 }
